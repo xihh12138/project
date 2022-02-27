@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.myapplication.view.BagDragListenerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.BagActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:contentDescription="Bag1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/bg_bag_item"
+            android:contentDescription="Bag1 Item1"
+            android:foreground="#123456"
+            android:padding="1dp" />
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/bg_bag_item"
+            android:contentDescription="Bag1 Item2"
+            android:foreground="#654321"
+            android:padding="1dp" />
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/bg_bag_item"
+            android:contentDescription="Bag1 Item3"
+            android:foreground="#345678"
+            android:padding="1dp" />
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/bg_bag_item"
+            android:contentDescription="Bag1 Item4"
+            android:foreground="#876543"
+            android:padding="1dp" />
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/bg_bag_item"
+            android:contentDescription="Bag1 Item5"
+            android:foreground="#567890"
+            android:padding="1dp" />
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/bg_bag_item"
+            android:contentDescription="Bag1 Item6"
+            android:foreground="#098765"
+            android:padding="1dp" />
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/bg_bag_item"
+            android:contentDescription="Bag1 Item7"
+            android:foreground="#7890ab"
+            android:padding="1dp" />
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/bg_bag_item"
+            android:contentDescription="Bag1 Item8"
+            android:foreground="#ba0987"
+            android:padding="1dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:contentDescription="Bag2"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/bg_bag_item"
+            android:contentDescription="Bag2 Item1"
+            android:padding="1dp" />
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/bg_bag_item"
+            android:contentDescription="Bag2 Item2"
+            android:padding="1dp" />
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/bg_bag_item"
+            android:contentDescription="Bag2 Item3"
+            android:padding="1dp" />
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/bg_bag_item"
+            android:contentDescription="Bag2 Item4"
+            android:padding="1dp" />
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/bg_bag_item"
+            android:contentDescription="Bag2 Item5"
+            android:padding="1dp" />
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/bg_bag_item"
+            android:contentDescription="Bag2 Item6"
+            android:padding="1dp" />
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/bg_bag_item"
+            android:contentDescription="Bag2 Item7"
+            android:padding="1dp" />
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/bg_bag_item"
+            android:contentDescription="Bag2 Item8"
+            android:padding="1dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginTop="100dp"/>
+
+</com.example.myapplication.view.BagDragListenerLayout>
